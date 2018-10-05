@@ -6,7 +6,7 @@ class Song < ActiveRecord::Base
   end 
   
   def artist_name 
-    sef.artist.name 
+    self.artist.name 
   end 
   
 end
